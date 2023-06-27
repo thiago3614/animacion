@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(157, 165, 42, 0.849);
+}
+
+.cuadrado {
+    width: 200px;
+    height: 250px;
+    background: gold;
+    transition: all 5s;
+    margin-top: 100px;
+    animation: cuadrado 2s infinite;
+
+}
+
+
+.cuadrado:hover {
+    transform: rotate(65deg);
+}
+
+
+
+@keyframes cuadrado {
+    0% {}
+
+    50% {
+        transform: translate(200px);
+    }
+
+    100% {}
+}
+
+.float {
+    transition: .5s, color .10s;
+}
+
+.float:hover {
+    box-shadow: 0 8px 8px 0 #bebbbc, 0 8px 8px 0 #adadab;
+    transform: translate(0px, 50px);
+}
